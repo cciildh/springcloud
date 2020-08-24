@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="order" target="1.8" />
       <module name="product" target="1.8" />
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />

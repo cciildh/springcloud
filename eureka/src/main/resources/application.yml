@@ -1,6 +1,6 @@
 
-#server:
-#  port: 8761
+server:
+  port: 8761
 #设置服务名称
 spring:
   application:
