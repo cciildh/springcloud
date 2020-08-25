@@ -3,6 +3,7 @@ package com.example.product.controller;
 import com.example.product.VO.ProductInfoVO;
 import com.example.product.VO.ProductVO;
 import com.example.product.VO.ResultVO;
+import com.example.product.common.DecreaseStockInput;
 import com.example.product.entity.ProductCategory;
 import com.example.product.entity.ProductInfo;
 import com.example.product.service.PorductInfoService;
@@ -10,9 +11,7 @@ import com.example.product.service.ProductCategoryService;
 import com.example.product.utlis.ResultVOUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,5 +60,15 @@ public class productController {
 
         return ResultVOUtil.success(productVOList);
 
+    }
+
+    @PostMapping("/listForOrder")
+    public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList) {
+        return porductInfoService.findList(productIdList);
+    }
+
+    @PostMapping("/decreaseStock")
+    public void decreaseStock(@RequestBody List<DecreaseStockInput> decreaseStockInputList) {
+        porductInfoService.decreaseStock(decreaseStockInputList);
     }
 }
