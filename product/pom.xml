@@ -26,6 +26,7 @@
         <spring-cloud-feign>1.4.7.RELEASE</spring-cloud-feign>
     </properties>
 
+
     <dependencyManagement>
         <dependencies>
             <dependency>
