@@ -1,0 +1,282 @@
+2020-08-2614:27:28.541[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2614:27:28.581[restartedMain]INFO o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-2614:27:28.988[restartedMain]INFO com.ldh.product.ProductApplication-No active profile set, falling back to default profiles: default
+2020-08-2614:27:29.436[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2614:27:29.489[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 48ms. Found 2 JPA repository interfaces.
+2020-08-2614:27:29.715[restartedMain]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=78eb986e-ac50-3bce-918e-51fabe5396e5
+2020-08-2614:27:30.118[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2020-08-2614:27:30.190[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-2614:27:30.191[restartedMain]INFO org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-08-2614:27:30.191[restartedMain]INFO org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-2614:27:30.283[restartedMain]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-08-2614:27:30.283[restartedMain]INFO o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1282 ms
+2020-08-2614:27:30.399[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2614:27:30.405[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2614:27:30.492[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2614:27:30.524[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2614:27:30.536[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2614:27:30.536[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2614:27:30.540[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2614:27:30.540[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2614:27:30.560[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2614:27:30.594[restartedMain]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2614:27:30.665[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2614:27:30.754[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2614:27:30.912[restartedMain]INFO o.s.b.d.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2020-08-2614:27:31.165[restartedMain]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2614:27:31.190[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2614:27:31.196[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2614:27:31.242[restartedMain]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2614:27:31.264[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2614:27:31.415[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2614:27:31.415[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2614:27:31.494[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2614:27:31.495[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2614:27:31.616[restartedMain]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2614:27:31.666[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2614:27:31.865[restartedMain]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2614:27:31.867[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2614:27:31.869[restartedMain]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2614:27:31.872[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598423251871 with initial instances count: 0
+2020-08-2614:27:31.874[restartedMain]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application PRODUCT with eureka with status UP
+2020-08-2614:27:31.875[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598423251874, current=UP, previous=STARTING]
+2020-08-2614:27:31.876[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081: registering service...
+2020-08-2614:27:31.877[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+2020-08-2614:27:31.904[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-2614:27:31.906[restartedMain]INFO o.s.c.n.e.s.EurekaAutoServiceRegistration-Updating port to 8081
+2020-08-2614:27:31.934[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081 - registration status: 204
+2020-08-2614:27:31.991[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2614:27:32.197[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2614:27:32.204[restartedMain]INFO com.ldh.product.ProductApplication-Started ProductApplication in 4.106 seconds (JVM running for 4.934)
+2020-08-2614:28:01.868[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2614:28:01.869[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2614:28:01.869[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2614:28:01.870[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2614:28:01.870[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2614:28:01.870[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: false
+2020-08-2614:28:01.870[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2614:28:01.930[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2614:28:13.082[http-nio-8081-exec-1]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-2614:28:13.082[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2020-08-2614:28:13.087[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+2020-08-2614:32:31.669[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2614:45:38.732[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2614:45:38.768[restartedMain]INFO o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-2614:45:39.185[restartedMain]INFO com.ldh.product.ProductApplication-No active profile set, falling back to default profiles: default
+2020-08-2614:45:39.655[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2614:45:39.714[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+2020-08-2614:45:39.920[restartedMain]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=78eb986e-ac50-3bce-918e-51fabe5396e5
+2020-08-2614:45:40.351[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2020-08-2614:45:40.425[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-2614:45:40.426[restartedMain]INFO org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-08-2614:45:40.426[restartedMain]INFO org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-2614:45:40.520[restartedMain]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-08-2614:45:40.521[restartedMain]INFO o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1324 ms
+2020-08-2614:45:40.630[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2614:45:40.637[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2614:45:40.727[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2614:45:40.759[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2614:45:40.770[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2614:45:40.770[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2614:45:40.774[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2614:45:40.774[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2614:45:40.793[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2614:45:40.825[restartedMain]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2614:45:40.895[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2614:45:40.987[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2614:45:41.144[restartedMain]INFO o.s.b.d.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2020-08-2614:45:41.395[restartedMain]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2614:45:41.422[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2614:45:41.429[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2614:45:41.473[restartedMain]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2614:45:41.495[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2614:45:41.647[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2614:45:41.648[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2614:45:41.731[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2614:45:41.731[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2614:45:41.850[restartedMain]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2614:45:41.898[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2614:45:41.898[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2614:45:41.899[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2614:45:41.899[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2614:45:41.899[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2614:45:41.899[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2614:45:41.899[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2614:45:42.119[restartedMain]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2614:45:42.121[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2614:45:42.123[restartedMain]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2614:45:42.126[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598424342125 with initial instances count: 1
+2020-08-2614:45:42.127[restartedMain]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application PRODUCT with eureka with status UP
+2020-08-2614:45:42.128[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598424342127, current=UP, previous=STARTING]
+2020-08-2614:45:42.129[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081: registering service...
+2020-08-2614:45:42.132[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+2020-08-2614:45:42.159[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-2614:45:42.160[restartedMain]INFO o.s.c.n.e.s.EurekaAutoServiceRegistration-Updating port to 8081
+2020-08-2614:45:42.163[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081 - registration status: 204
+2020-08-2614:45:42.240[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2614:45:42.476[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2614:45:42.482[restartedMain]INFO com.ldh.product.ProductApplication-Started ProductApplication in 4.174 seconds (JVM running for 5.868)
+2020-08-2614:45:50.158[http-nio-8081-exec-1]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-2614:45:50.159[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2020-08-2614:45:50.165[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2020-08-2615:19:04.526[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2615:19:04.554[restartedMain]INFO o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-2615:19:05.010[restartedMain]INFO com.ldh.product.ProductApplication-No active profile set, falling back to default profiles: default
+2020-08-2615:19:05.492[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2615:19:05.552[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+2020-08-2615:19:05.758[restartedMain]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=78eb986e-ac50-3bce-918e-51fabe5396e5
+2020-08-2615:19:06.209[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2020-08-2615:19:06.261[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-2615:19:06.261[restartedMain]INFO org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-08-2615:19:06.262[restartedMain]INFO org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-2615:19:06.365[restartedMain]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-08-2615:19:06.365[restartedMain]INFO o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1343 ms
+2020-08-2615:19:06.479[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2615:19:06.486[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2615:19:06.593[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2615:19:06.630[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2615:19:06.643[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2615:19:06.643[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2615:19:06.648[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2615:19:06.648[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2615:19:06.672[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2615:19:06.724[restartedMain]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2615:19:06.791[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2615:19:06.874[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2615:19:07.041[restartedMain]INFO o.s.b.d.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2020-08-2615:19:07.337[restartedMain]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2615:19:07.361[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2615:19:07.368[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2615:19:07.440[restartedMain]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2615:19:07.466[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2615:19:07.642[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2615:19:07.642[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2615:19:07.728[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2615:19:07.729[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2615:19:07.856[restartedMain]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2615:19:07.909[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2615:19:07.909[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2615:19:07.909[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2615:19:07.909[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2615:19:07.909[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2615:19:07.909[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2615:19:07.910[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2615:19:08.149[restartedMain]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2615:19:08.151[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2615:19:08.153[restartedMain]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2615:19:08.156[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598426348155 with initial instances count: 1
+2020-08-2615:19:08.158[restartedMain]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application PRODUCT with eureka with status UP
+2020-08-2615:19:08.159[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598426348159, current=UP, previous=STARTING]
+2020-08-2615:19:08.160[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081: registering service...
+2020-08-2615:19:08.164[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+2020-08-2615:19:08.186[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-2615:19:08.187[restartedMain]INFO o.s.c.n.e.s.EurekaAutoServiceRegistration-Updating port to 8081
+2020-08-2615:19:08.191[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081 - registration status: 204
+2020-08-2615:19:08.267[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2615:19:08.495[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2615:19:08.503[restartedMain]INFO com.ldh.product.ProductApplication-Started ProductApplication in 4.623 seconds (JVM running for 5.524)
+2020-08-2615:19:16.621[http-nio-8081-exec-1]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-2615:19:16.621[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2020-08-2615:19:16.628[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2020-08-2615:22:59.524[http-nio-8081-exec-7]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_, productinf0_.category_type as category2_1_, productinf0_.create_time as create_t3_1_, productinf0_.product_description as product_4_1_, productinf0_.product_icon as product_5_1_, productinf0_.product_name as product_6_1_, productinf0_.product_price as product_7_1_, productinf0_.product_status as product_8_1_, productinf0_.product_stock as product_9_1_, productinf0_.update_time as update_10_1_ from product_info productinf0_ where productinf0_.product_id in (? , ?)
+2020-08-2615:22:59.539[http-nio-8081-exec-7]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [1578752279534640618]
+2020-08-2615:22:59.539[http-nio-8081-exec-7]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [2] as [VARCHAR] - [1641034657342421707]
+2020-08-2615:24:07.911[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2615:24:58.068[http-nio-8081-exec-9]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_, productinf0_.category_type as category2_1_, productinf0_.create_time as create_t3_1_, productinf0_.product_description as product_4_1_, productinf0_.product_icon as product_5_1_, productinf0_.product_name as product_6_1_, productinf0_.product_price as product_7_1_, productinf0_.product_status as product_8_1_, productinf0_.product_stock as product_9_1_, productinf0_.update_time as update_10_1_ from product_info productinf0_ where productinf0_.product_id in (? , ?)
+2020-08-2615:24:58.069[http-nio-8081-exec-9]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [1578752279534640618]
+2020-08-2615:24:58.069[http-nio-8081-exec-9]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [2] as [VARCHAR] - [1641034657342421707]
+2020-08-2615:24:58.099[http-nio-8081-exec-10]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_0_, productinf0_.category_type as category2_1_0_, productinf0_.create_time as create_t3_1_0_, productinf0_.product_description as product_4_1_0_, productinf0_.product_icon as product_5_1_0_, productinf0_.product_name as product_6_1_0_, productinf0_.product_price as product_7_1_0_, productinf0_.product_status as product_8_1_0_, productinf0_.product_stock as product_9_1_0_, productinf0_.update_time as update_10_1_0_ from product_info productinf0_ where productinf0_.product_id=?
+2020-08-2615:24:58.100[http-nio-8081-exec-10]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [1578752279534640618]
+2020-08-2615:24:58.112[http-nio-8081-exec-10]ERRORo.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 该商品不存在:1578752279534640618] with root cause
+java.lang.RuntimeException: 该商品不存在:1578752279534640618
+	at com.ldh.product.service.impl.PorductInfoServiceServiceimpl.decreaseStock(PorductInfoServiceServiceimpl.java:47)
+	at com.ldh.product.controller.productController.decreaseStock(productController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-08-2615:25:49.307[http-nio-8081-exec-1]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_, productinf0_.category_type as category2_1_, productinf0_.create_time as create_t3_1_, productinf0_.product_description as product_4_1_, productinf0_.product_icon as product_5_1_, productinf0_.product_name as product_6_1_, productinf0_.product_price as product_7_1_, productinf0_.product_status as product_8_1_, productinf0_.product_stock as product_9_1_, productinf0_.update_time as update_10_1_ from product_info productinf0_ where productinf0_.product_id in (?)
+2020-08-2615:25:49.308[http-nio-8081-exec-1]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [164103465734242707]
+2020-08-2615:26:06.294[http-nio-8081-exec-2]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_, productinf0_.category_type as category2_1_, productinf0_.create_time as create_t3_1_, productinf0_.product_description as product_4_1_, productinf0_.product_icon as product_5_1_, productinf0_.product_name as product_6_1_, productinf0_.product_price as product_7_1_, productinf0_.product_status as product_8_1_, productinf0_.product_stock as product_9_1_, productinf0_.update_time as update_10_1_ from product_info productinf0_ where productinf0_.product_id in (?)
+2020-08-2615:26:06.295[http-nio-8081-exec-2]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [164103465734242707]
+2020-08-2615:26:06.361[http-nio-8081-exec-3]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_0_, productinf0_.category_type as category2_1_0_, productinf0_.create_time as create_t3_1_0_, productinf0_.product_description as product_4_1_0_, productinf0_.product_icon as product_5_1_0_, productinf0_.product_name as product_6_1_0_, productinf0_.product_price as product_7_1_0_, productinf0_.product_status as product_8_1_0_, productinf0_.product_stock as product_9_1_0_, productinf0_.update_time as update_10_1_0_ from product_info productinf0_ where productinf0_.product_id=?
+2020-08-2615:26:06.361[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [164103465734242707]
+2020-08-2615:26:06.388[http-nio-8081-exec-3]DEBUGorg.hibernate.SQL-update product_info set category_type=?, create_time=?, product_description=?, product_icon=?, product_name=?, product_price=?, product_status=?, product_stock=?, update_time=? where product_id=?
+2020-08-2615:26:06.388[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [INTEGER] - [1]
+2020-08-2615:26:06.389[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [2] as [TIMESTAMP] - [2017-03-31 06:11:56.0]
+2020-08-2615:26:06.389[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [3] as [VARCHAR] - [好吃]
+2020-08-2615:26:06.389[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [4] as [VARCHAR] - [//fuss10.elemecdn.com/7/4a/f307f56216b03f067155aec8b124ejpeg.jpeg]
+2020-08-2615:26:06.389[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [5] as [VARCHAR] - [蜜汁鸡翅]
+2020-08-2615:26:06.390[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [6] as [NUMERIC] - [1.00]
+2020-08-2615:26:06.390[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [7] as [INTEGER] - [0]
+2020-08-2615:26:06.390[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [8] as [INTEGER] - [966]
+2020-08-2615:26:06.390[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [9] as [TIMESTAMP] - [2020-08-26 07:14:50.0]
+2020-08-2615:26:06.390[http-nio-8081-exec-3]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [10] as [VARCHAR] - [164103465734242707]
+2020-08-2615:27:28.110[http-nio-8081-exec-5]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_, productinf0_.category_type as category2_1_, productinf0_.create_time as create_t3_1_, productinf0_.product_description as product_4_1_, productinf0_.product_icon as product_5_1_, productinf0_.product_name as product_6_1_, productinf0_.product_price as product_7_1_, productinf0_.product_status as product_8_1_, productinf0_.product_stock as product_9_1_, productinf0_.update_time as update_10_1_ from product_info productinf0_ where productinf0_.product_id in (?)
+2020-08-2615:27:28.112[http-nio-8081-exec-5]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [164103465734242707]
+2020-08-2615:27:28.123[http-nio-8081-exec-6]DEBUGorg.hibernate.SQL-select productinf0_.product_id as product_1_1_0_, productinf0_.category_type as category2_1_0_, productinf0_.create_time as create_t3_1_0_, productinf0_.product_description as product_4_1_0_, productinf0_.product_icon as product_5_1_0_, productinf0_.product_name as product_6_1_0_, productinf0_.product_price as product_7_1_0_, productinf0_.product_status as product_8_1_0_, productinf0_.product_stock as product_9_1_0_, productinf0_.update_time as update_10_1_0_ from product_info productinf0_ where productinf0_.product_id=?
+2020-08-2615:27:28.123[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [VARCHAR] - [164103465734242707]
+2020-08-2615:27:28.126[http-nio-8081-exec-6]DEBUGorg.hibernate.SQL-update product_info set category_type=?, create_time=?, product_description=?, product_icon=?, product_name=?, product_price=?, product_status=?, product_stock=?, update_time=? where product_id=?
+2020-08-2615:27:28.127[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [1] as [INTEGER] - [1]
+2020-08-2615:27:28.127[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [2] as [TIMESTAMP] - [2017-03-31 06:11:56.0]
+2020-08-2615:27:28.127[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [3] as [VARCHAR] - [好吃]
+2020-08-2615:27:28.127[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [4] as [VARCHAR] - [//fuss10.elemecdn.com/7/4a/f307f56216b03f067155aec8b124ejpeg.jpeg]
+2020-08-2615:27:28.127[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [5] as [VARCHAR] - [蜜汁鸡翅]
+2020-08-2615:27:28.128[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [6] as [NUMERIC] - [1.00]
+2020-08-2615:27:28.128[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [7] as [INTEGER] - [0]
+2020-08-2615:27:28.128[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [8] as [INTEGER] - [964]
+2020-08-2615:27:28.128[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [9] as [TIMESTAMP] - [2020-08-26 07:14:50.0]
+2020-08-2615:27:28.128[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [10] as [VARCHAR] - [164103465734242707]
+2020-08-2615:29:07.913[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration

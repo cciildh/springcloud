@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: product
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.205.136:3306/firstDB
+    username: ldh
+    password: ldh
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
