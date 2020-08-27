@@ -1,0 +1,688 @@
+2020-08-2717:33:19.404[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2717:33:19.409[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2717:33:19.410[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2717:33:19.525[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2717:33:19.665[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2717:33:19.685[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@119cbf96, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71329995, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@768fc0f2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5454d35e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@20c0a64d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@455b6df1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4ddbbdf8, org.springframework.test.context.event.EventPublishingTestExecutionListener@3f67593e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ab06251, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@59e505b2]
+2020-08-2717:33:20.055[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2717:33:20.745[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2717:33:21.529[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2717:33:21.768[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 230ms. Found 2 JPA repository interfaces.
+2020-08-2717:33:22.129[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2717:33:22.186[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2717:33:22.556[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2717:33:22.580[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2717:33:22.747[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2717:33:22.821[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2717:33:22.939[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2717:33:22.981[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2717:33:23.169[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2717:33:23.180[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2717:33:23.576[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2717:33:24.491[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2717:33:24.500[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2717:33:24.741[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2717:33:25.151[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2717:33:25.152[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2717:33:25.159[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2717:33:25.159[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2717:33:26.919[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2717:33:27.089[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2717:33:27.165[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2717:33:27.248[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2717:33:27.249[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2717:33:27.406[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2717:33:27.407[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2717:33:27.603[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2717:33:27.679[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2717:33:27.679[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2717:33:27.679[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2717:33:27.680[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2717:33:27.680[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2717:33:27.680[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2717:33:27.680[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2717:33:27.875[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2717:33:27.879[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2717:33:27.887[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2717:33:27.891[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598520807890 with initial instances count: 1
+2020-08-2717:33:27.897[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2717:33:27.899[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598520807899, current=UP, previous=STARTING]
+2020-08-2717:33:27.902[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2717:33:27.904[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2717:33:27.947[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2717:33:28.028[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#3c4e17ea:0/SimpleConnection@6e818345 [delegate=amqp://root@192.168.205.188:5672/, localPort= 42766]
+2020-08-2717:33:28.097[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2717:33:28.097[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2717:33:28.110[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.372 seconds (JVM running for 9.988)
+2020-08-2717:33:28.302[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2717:33:28.302[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598520808302, current=DOWN, previous=UP]
+2020-08-2717:33:28.303[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2717:33:28.308[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2717:33:28.313[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2717:33:29.101[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2717:33:29.124[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2717:33:29.128[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2717:33:29.131[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2717:33:29.132[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2717:33:29.150[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2717:33:29.150[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2717:33:32.156[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2717:33:32.178[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2717:33:32.200[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2717:42:20.332[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2717:42:20.339[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2717:42:20.340[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2717:42:20.517[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2717:42:20.683[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2717:42:20.707[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2717:42:21.068[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2717:42:21.728[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2717:42:22.457[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2717:42:22.653[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 186ms. Found 2 JPA repository interfaces.
+2020-08-2717:42:22.976[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2717:42:23.036[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2717:42:23.412[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2717:42:23.432[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2717:42:23.601[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2717:42:23.673[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2717:42:23.798[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2717:42:23.826[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2717:42:24.019[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2717:42:24.040[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2717:42:24.369[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2717:42:25.252[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2717:42:25.261[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2717:42:25.489[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2717:42:25.896[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2717:42:25.896[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2717:42:25.904[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2717:42:25.904[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2717:42:27.705[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2717:42:27.862[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2717:42:27.950[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2717:42:28.078[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2717:42:28.079[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2717:42:28.254[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2717:42:28.255[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2717:42:28.427[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2717:42:28.504[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2717:42:28.504[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2717:42:28.504[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2717:42:28.505[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2717:42:28.505[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2717:42:28.505[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2717:42:28.505[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2717:42:28.617[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2717:42:28.619[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2717:42:28.622[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2717:42:28.626[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598521348624 with initial instances count: 0
+2020-08-2717:42:28.631[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2717:42:28.632[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598521348632, current=UP, previous=STARTING]
+2020-08-2717:42:28.634[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2717:42:28.635[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2717:42:28.729[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2717:42:28.765[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#6bcfb561:0/SimpleConnection@5799b8a2 [delegate=amqp://root@192.168.205.188:5672/, localPort= 43083]
+2020-08-2717:42:28.836[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2717:42:28.836[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2717:42:28.847[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.088 seconds (JVM running for 9.612)
+2020-08-2717:42:28.989[org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1]INFO com.ldh.order.message.mqReseiver-MyMQ:halo guoguo  mq
+2020-08-2717:42:28.991[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2717:42:28.991[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598521348991, current=DOWN, previous=UP]
+2020-08-2717:42:28.992[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2717:42:28.997[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2717:42:28.999[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2717:42:29.997[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2717:42:30.503[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2717:42:30.510[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2717:42:30.514[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2717:42:30.514[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2717:42:30.615[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2717:42:30.615[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2717:42:33.619[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2717:42:33.627[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2717:42:33.637[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2717:43:27.402[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2717:43:27.409[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2717:43:27.410[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2717:43:27.580[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2717:43:27.749[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2717:43:27.770[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2717:43:28.133[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2717:43:28.875[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2717:43:29.528[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2717:43:29.724[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 186ms. Found 2 JPA repository interfaces.
+2020-08-2717:43:30.078[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2717:43:30.135[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2717:43:30.491[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2717:43:30.513[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2717:43:30.678[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2717:43:30.750[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2717:43:30.862[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2717:43:30.910[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2717:43:31.087[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2717:43:31.105[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2717:43:31.434[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2717:43:32.302[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2717:43:32.311[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2717:43:32.560[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2717:43:32.960[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2717:43:32.960[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2717:43:32.968[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2717:43:32.968[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2717:43:34.657[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2717:43:34.819[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2717:43:34.906[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2717:43:34.996[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2717:43:34.997[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2717:43:35.168[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2717:43:35.168[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2717:43:35.374[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2717:43:35.443[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2717:43:35.443[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2717:43:35.443[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2717:43:35.443[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2717:43:35.443[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2717:43:35.444[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2717:43:35.444[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2717:43:35.634[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2717:43:35.637[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2717:43:35.640[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2717:43:35.643[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598521415642 with initial instances count: 1
+2020-08-2717:43:35.651[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2717:43:35.652[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598521415652, current=UP, previous=STARTING]
+2020-08-2717:43:35.654[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2717:43:35.656[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2717:43:35.690[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2717:43:35.742[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#6bcfb561:0/SimpleConnection@38241615 [delegate=amqp://root@192.168.205.188:5672/, localPort= 43167]
+2020-08-2717:43:35.792[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2717:43:35.793[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2717:43:35.801[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 7.98 seconds (JVM running for 9.504)
+2020-08-2717:43:35.950[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2717:43:35.951[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598521415951, current=DOWN, previous=UP]
+2020-08-2717:43:35.951[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2717:43:35.956[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2717:43:35.960[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2717:43:36.802[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2717:43:36.835[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2717:43:36.838[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2717:43:36.846[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2717:43:36.847[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2717:43:36.865[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2717:43:36.865[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2717:43:39.869[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2717:43:39.886[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2717:43:39.903[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2718:07:04.796[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2718:07:04.809[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2718:07:04.813[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2718:07:05.007[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2718:07:05.193[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2718:07:05.222[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2718:07:05.579[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2718:07:06.262[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2718:07:07.003[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2718:07:07.211[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 199ms. Found 2 JPA repository interfaces.
+2020-08-2718:07:07.550[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2718:07:07.612[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2718:07:07.990[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2718:07:08.013[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2718:07:08.211[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2718:07:08.277[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2718:07:08.397[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2718:07:08.465[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2718:07:08.686[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:07:08.698[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2718:07:09.166[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2718:07:09.946[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2718:07:09.956[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:07:10.197[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:07:10.614[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:07:10.614[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:07:10.622[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:07:10.622[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:07:12.281[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2718:07:12.448[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2718:07:12.523[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2718:07:12.604[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2718:07:12.604[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2718:07:12.753[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2718:07:12.753[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2718:07:12.958[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2718:07:13.032[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2718:07:13.261[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2718:07:13.264[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2718:07:13.266[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2718:07:13.269[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598522833268 with initial instances count: 1
+2020-08-2718:07:13.274[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2718:07:13.274[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598522833274, current=UP, previous=STARTING]
+2020-08-2718:07:13.277[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:07:13.277[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2718:07:13.312[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:07:13.375[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#6bcfb561:0/SimpleConnection@42fc744 [delegate=amqp://root@192.168.205.188:5672/, localPort= 43931]
+2020-08-2718:07:13.381[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (GuoMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:07:13.381[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (BhqMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:07:13.439[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:07:13.440[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:07:13.448[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.178 seconds (JVM running for 9.787)
+2020-08-2718:07:13.586[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2718:07:13.587[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598522833587, current=DOWN, previous=UP]
+2020-08-2718:07:13.587[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:07:13.593[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:07:13.597[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:07:14.434[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:07:14.437[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:07:15.437[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:07:15.441[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:07:15.445[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:07:15.587[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:07:15.587[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:07:15.588[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:07:15.594[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:07:15.600[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2718:07:15.601[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2718:07:15.621[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2718:07:15.621[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2718:07:18.624[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2718:07:18.629[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2718:07:18.647[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2718:07:40.992[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2718:07:41.001[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2718:07:41.003[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2718:07:41.244[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2718:07:41.446[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2718:07:41.471[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2718:07:41.830[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2718:07:42.518[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2718:07:43.271[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2718:07:43.473[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 193ms. Found 2 JPA repository interfaces.
+2020-08-2718:07:43.812[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2718:07:43.869[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2718:07:44.242[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2718:07:44.262[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2718:07:44.425[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2718:07:44.498[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2718:07:44.619[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2718:07:44.673[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2718:07:44.850[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:07:44.902[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2718:07:45.267[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2718:07:46.070[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2718:07:46.080[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:07:46.326[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:07:46.720[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:07:46.720[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:07:46.727[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:07:46.727[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:07:48.504[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2718:07:48.653[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2718:07:48.724[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2718:07:48.804[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2718:07:48.804[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2718:07:48.952[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2718:07:48.953[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2718:07:49.136[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2718:07:49.215[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2718:07:49.215[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2718:07:49.215[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2718:07:49.215[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2718:07:49.216[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2718:07:49.216[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2718:07:49.216[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2718:07:49.425[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2718:07:49.427[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2718:07:49.430[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2718:07:49.434[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598522869433 with initial instances count: 1
+2020-08-2718:07:49.441[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2718:07:49.442[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598522869442, current=UP, previous=STARTING]
+2020-08-2718:07:49.444[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:07:49.448[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2718:07:49.476[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:07:49.551[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#6bcfb561:0/SimpleConnection@25bd68ea [delegate=amqp://root@192.168.205.188:5672/, localPort= 43959]
+2020-08-2718:07:49.557[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (GuoMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:07:49.557[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (BhqMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:07:49.624[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:07:49.625[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:07:49.637[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.119 seconds (JVM running for 9.766)
+2020-08-2718:07:49.786[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2718:07:49.786[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598522869786, current=DOWN, previous=UP]
+2020-08-2718:07:49.786[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:07:49.790[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:07:49.796[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:07:50.623[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:07:50.628[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:07:51.622[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:07:51.624[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:07:51.626[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:07:51.643[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:07:51.643[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:07:51.644[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:07:51.646[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:07:51.648[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2718:07:51.649[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2718:07:51.664[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2718:07:51.665[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2718:07:54.668[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2718:07:54.672[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2718:07:54.681[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2718:14:09.197[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2718:14:09.209[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2718:14:09.212[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2718:14:09.430[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2718:14:09.670[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2718:14:09.695[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2718:14:10.046[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2718:14:10.792[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2718:14:11.415[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2718:14:11.625[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 199ms. Found 2 JPA repository interfaces.
+2020-08-2718:14:11.977[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2718:14:12.032[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2718:14:12.391[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2718:14:12.411[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2718:14:12.587[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2718:14:12.649[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2718:14:12.780[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2718:14:12.839[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2718:14:13.012[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2718:14:13.048[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:14:13.437[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2718:14:14.246[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2718:14:14.256[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:14:14.495[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:14:14.935[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:14:14.936[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:14:14.942[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:14:14.943[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:14:16.728[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2718:14:16.877[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2718:14:16.952[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2718:14:17.028[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2718:14:17.028[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2718:14:17.200[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2718:14:17.200[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2718:14:17.390[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2718:14:17.462[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2718:14:17.462[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2718:14:17.462[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2718:14:17.463[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2718:14:17.463[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2718:14:17.463[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2718:14:17.463[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2718:14:17.641[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2718:14:17.643[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2718:14:17.646[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2718:14:17.649[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598523257648 with initial instances count: 1
+2020-08-2718:14:17.655[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2718:14:17.656[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523257656, current=UP, previous=STARTING]
+2020-08-2718:14:17.658[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:14:17.659[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2718:14:17.706[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:14:17.787[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#18adc20a:0/SimpleConnection@38241615 [delegate=amqp://root@192.168.205.188:5672/, localPort= 44125]
+2020-08-2718:14:17.793[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (GuoMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:14:17.793[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (BhqMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:14:17.860[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:14:17.861[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:14:17.870[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.126 seconds (JVM running for 9.603)
+2020-08-2718:14:18.001[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2718:14:18.002[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523258002, current=DOWN, previous=UP]
+2020-08-2718:14:18.003[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:14:18.008[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:14:18.009[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:14:18.861[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:14:18.868[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:14:19.856[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:14:19.857[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:14:19.860[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:14:19.872[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:14:19.872[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:14:19.872[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:14:19.874[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:14:19.876[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2718:14:19.876[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2718:14:19.891[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2718:14:19.891[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2718:14:22.895[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2718:14:22.904[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2718:14:22.917[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2718:17:30.470[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2718:17:30.477[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2718:17:30.479[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2718:17:30.741[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2718:17:30.877[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2718:17:30.898[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2718:17:31.388[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2718:17:32.091[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2718:17:32.757[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2718:17:32.962[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 195ms. Found 2 JPA repository interfaces.
+2020-08-2718:17:33.328[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2718:17:33.388[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2718:17:33.921[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2718:17:33.947[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2718:17:34.158[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2718:17:34.235[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2718:17:34.374[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2718:17:34.425[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2718:17:34.607[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2718:17:34.623[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:17:34.956[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2718:17:35.712[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2718:17:35.723[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:17:36.018[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:17:36.478[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:17:36.479[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:17:36.485[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:17:36.486[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:17:38.083[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2718:17:38.262[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2718:17:38.373[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2718:17:38.491[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2718:17:38.492[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2718:17:38.730[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2718:17:38.732[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2718:17:38.952[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2718:17:39.023[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2718:17:39.224[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2718:17:39.227[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2718:17:39.230[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2718:17:39.234[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598523459233 with initial instances count: 1
+2020-08-2718:17:39.239[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2718:17:39.240[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523459240, current=UP, previous=STARTING]
+2020-08-2718:17:39.242[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:17:39.246[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2718:17:39.276[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:17:39.351[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#6bcfb561:0/SimpleConnection@42fc744 [delegate=amqp://root@192.168.205.188:5672/, localPort= 44194]
+2020-08-2718:17:39.359[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (GuoMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:17:39.360[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (BhqMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:17:39.419[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:17:39.419[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:17:39.431[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.48 seconds (JVM running for 9.952)
+2020-08-2718:17:39.570[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2718:17:39.570[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523459570, current=DOWN, previous=UP]
+2020-08-2718:17:39.570[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:17:39.574[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:17:39.578[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:17:40.416[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:17:40.425[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:17:41.416[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:17:41.421[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:17:41.423[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:17:41.454[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:17:41.455[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:17:41.455[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:17:41.457[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:17:41.460[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2718:17:41.461[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2718:17:41.479[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2718:17:41.479[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2718:17:44.481[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2718:17:44.486[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2718:17:44.495[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2718:23:27.437[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2718:23:27.443[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2718:23:27.444[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2718:23:27.647[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2718:23:27.822[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2718:23:27.848[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2718:23:28.292[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2718:23:28.948[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2718:23:29.637[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2718:23:29.860[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 212ms. Found 2 JPA repository interfaces.
+2020-08-2718:23:30.225[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2718:23:30.290[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2718:23:30.793[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2718:23:30.821[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2718:23:30.989[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2718:23:31.090[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2718:23:31.216[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2718:23:31.255[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2718:23:31.445[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:23:31.476[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2718:23:31.824[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2718:23:32.657[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2718:23:32.672[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:23:33.024[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:23:33.416[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:23:33.416[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:23:33.423[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:23:33.423[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:23:35.043[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2718:23:35.237[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2718:23:35.339[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2718:23:35.458[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2718:23:35.458[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2718:23:35.611[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2718:23:35.611[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2718:23:35.792[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2718:23:35.887[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2718:23:35.887[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2718:23:35.887[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2718:23:35.887[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2718:23:35.888[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2718:23:35.888[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2718:23:35.888[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2718:23:36.057[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2718:23:36.060[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2718:23:36.062[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2718:23:36.066[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598523816065 with initial instances count: 1
+2020-08-2718:23:36.071[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2718:23:36.071[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523816071, current=UP, previous=STARTING]
+2020-08-2718:23:36.073[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:23:36.074[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2718:23:36.108[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:23:36.185[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#49f9758:0/SimpleConnection@25bd68ea [delegate=amqp://root@192.168.205.188:5672/, localPort= 44309]
+2020-08-2718:23:36.192[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (GuoMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:23:36.193[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (BhqMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:23:36.256[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:23:36.256[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:23:36.265[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.357 seconds (JVM running for 9.849)
+2020-08-2718:23:36.401[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2718:23:36.402[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523816402, current=DOWN, previous=UP]
+2020-08-2718:23:36.402[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:23:36.406[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:23:36.409[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:23:37.258[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:23:37.263[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:23:38.255[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:23:38.258[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:23:39.259[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:23:39.292[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:23:39.293[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:23:39.293[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:23:39.298[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:23:39.305[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2718:23:39.306[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2718:23:39.324[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2718:23:39.324[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2718:23:42.346[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2718:23:42.371[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2718:23:42.393[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
+2020-08-2718:23:43.897[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ldh.order.message.mqReseiverTest], using SpringBootContextLoader
+2020-08-2718:23:43.904[main]INFO o.s.test.context.support.AbstractContextLoader-Could not detect default resource locations for test class [com.ldh.order.message.mqReseiverTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-2718:23:43.905[main]INFO o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.ldh.order.message.mqReseiverTest]: mqReseiverTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-2718:23:44.151[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.ldh.order.OrderApplication for test class com.ldh.order.message.mqReseiverTest
+2020-08-2718:23:44.420[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-08-2718:23:44.450[main]INFO o.s.b.t.context.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71329995, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@768fc0f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5454d35e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c0a64d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455b6df1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ddbbdf8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f67593e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ab06251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41ab013, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14bee915, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1115ec15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@82ea68c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59e505b2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3af0a9da]
+2020-08-2718:23:44.846[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-08-2718:23:45.655[main]INFO com.ldh.order.message.mqReseiverTest-No active profile set, falling back to default profiles: default
+2020-08-2718:23:46.200[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-2718:23:46.407[main]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 196ms. Found 2 JPA repository interfaces.
+2020-08-2718:23:46.787[main]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=8385c9cf-47e7-31f4-b669-aa5d800f77c0
+2020-08-2718:23:46.838[main]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'com.ldh.product.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-2718:23:47.208[main]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-2718:23:47.230[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-08-2718:23:47.392[main]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-08-2718:23:47.467[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-2718:23:47.623[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-2718:23:47.662[main]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-2718:23:47.884[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-2718:23:47.906[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:23:48.314[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-2718:23:49.081[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-2718:23:49.091[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:23:49.330[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:23:49.706[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:23:49.706[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:23:49.713[main]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-08-2718:23:49.713[main]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-2718:23:51.430[main]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-2718:23:51.581[main]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-08-2718:23:51.663[main]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-08-2718:23:51.744[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-08-2718:23:51.745[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-08-2718:23:51.892[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-08-2718:23:51.893[main]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-08-2718:23:52.065[main]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-08-2718:23:52.133[main]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-08-2718:23:52.134[main]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-08-2718:23:52.134[main]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-08-2718:23:52.134[main]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-08-2718:23:52.134[main]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-08-2718:23:52.134[main]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-08-2718:23:52.134[main]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-08-2718:23:52.312[main]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-08-2718:23:52.315[main]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-08-2718:23:52.318[main]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-2718:23:52.321[main]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598523832320 with initial instances count: 1
+2020-08-2718:23:52.328[main]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application ORDER with eureka with status UP
+2020-08-2718:23:52.328[main]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523832328, current=UP, previous=STARTING]
+2020-08-2718:23:52.330[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:23:52.332[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
+2020-08-2718:23:52.379[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:23:52.435[main]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#6bcfb561:0/SimpleConnection@25bd68ea [delegate=amqp://root@192.168.205.188:5672/, localPort= 44330]
+2020-08-2718:23:52.442[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (BhqMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:23:52.442[main]INFO org.springframework.amqp.rabbit.core.RabbitAdmin-Auto-declaring a non-durable, auto-delete, or exclusive Queue (GuoMq) durable:true, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-08-2718:23:52.521[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-08-2718:23:52.522[main]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-08-2718:23:52.530[main]INFO com.ldh.order.message.mqReseiverTest-Started mqReseiverTest in 8.007 seconds (JVM running for 10.253)
+2020-08-2718:23:52.655[SpringContextShutdownHook]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Unregistering application ORDER with eureka with status DOWN
+2020-08-2718:23:52.656[SpringContextShutdownHook]WARN com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598523832656, current=DOWN, previous=UP]
+2020-08-2718:23:52.656[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082: registering service...
+2020-08-2718:23:52.662[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - registration status: 204
+2020-08-2718:23:52.667[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:23:53.521[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:23:53.525[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:23:54.520[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:23:54.524[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Waiting for workers to finish.
+2020-08-2718:23:55.522[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2020-08-2718:23:55.540[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:23:55.541[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:23:55.541[SpringContextShutdownHook]INFO o.s.a.r.listener.SimpleMessageListenerContainer-Shutdown ignored - container is not active already
+2020-08-2718:23:55.544[SpringContextShutdownHook]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-2718:23:55.548[SpringContextShutdownHook]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-2718:23:55.548[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2020-08-2718:23:55.605[SpringContextShutdownHook]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2020-08-2718:23:55.606[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Shutting down DiscoveryClient ...
+2020-08-2718:23:58.610[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Unregistering ...
+2020-08-2718:23:58.625[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_ORDER/DESKTOP-B4REUBC:order:8082 - deregister  status: 200
+2020-08-2718:23:58.652[SpringContextShutdownHook]INFO com.netflix.discovery.DiscoveryClient-Completed shut down of DiscoveryClient
