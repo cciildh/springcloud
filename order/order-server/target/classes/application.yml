@@ -1,6 +1,12 @@
 server:
   port: 8082
 spring:
+  cloud:
+    stream:
+      bindings:
+        StreamLdhMq:
+          group: order
+          #content-type: application/json #表示对象反序列化为json
   application:
     name: order
   jpa:
@@ -10,6 +16,16 @@ spring:
     url: jdbc:mysql://192.168.205.136:3306/firstDB
     username: ldh
     password: ldh
+  rabbitmq:
+    host: 192.168.205.188
+    port: 5672
+    username: root
+    password: admin
+    listener:
+      direct:
+        retry:
+          enabled: true
+          max-attempts: 5
 eureka:
   client:
     service-url:
