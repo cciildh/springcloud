@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 @EnableBinding(StreamClient.class)
 @Slf4j
 public class StreamResiver {
-//    @StreamListener(StreamClient.INPUT)
-//    public void process(Object msg) {
-//        log.info("myStream message:{}", msg);
-//    }
+    @StreamListener(StreamClient.INPUT)
+    public void process(Object msg) {
+        log.info("myStream message:{}", msg);
+    }
 }
