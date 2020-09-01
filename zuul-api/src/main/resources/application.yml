@@ -1,0 +1,24 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8083
+spring:
+  application:
+    name: zuul-api
+zuul:
+  routes:
+    #重写默认服务路由 配置
+    product-server:
+      #：8081/myproduct/msg -> :8081/product/msg
+      path: /myporduct/**
+      serviceId: product  #注册中心的服务名
+      sensitiveHeaders: #服务之间调用可以携带cooke
+    #简介写法
+    #product: /myproduct/**
+  #排除某些路由
+  ignored-patterns:
+    - /**/product/list
+

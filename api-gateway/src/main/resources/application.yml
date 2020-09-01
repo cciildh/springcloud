@@ -1,0 +1,29 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  cloud:
+    gateway:
+      #此处配置表示开启自动映射Eureka下发的路由,默认采用服务名的路由策略
+      discovery:
+        locator:
+          enabled: true
+          #开启小写验证，默认feign根据服务名查找都是用的全大写
+          lower-case-service-id: true
+      routes:
+        - id: product-server #lb代表从注册中心获取服务
+          uri: lb://product
+          predicates:
+            #表示转发该路径 原路径：：8081/product/msg  转发后8081/product-server/msg
+            - Path=/product-server/**
+            #去掉服务名策略product-server，只保留**部分
+          filters:
+            - StripPrefix=1
+
+
+  application:
+    name: api-gateway
+server:
+  port: 8083

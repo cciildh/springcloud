@@ -1400,3 +1400,181 @@ java.io.NotSerializableException: com.ldh.product.common.ProductInfoOutput
 2020-09-0117:27:09.493[http-nio-8081-exec-6]TRACEorg.hibernate.type.descriptor.sql.BasicBinder-binding parameter [10] as [VARCHAR] - [157875227953464068]
 2020-09-0117:27:09.504[http-nio-8081-exec-6]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Attempting to connect to: [192.168.205.188:5672]
 2020-09-0117:27:09.539[http-nio-8081-exec-6]INFO o.s.a.rabbit.connection.CachingConnectionFactory-Created new connection: rabbitConnectionFactory#59a1bb23:0/SimpleConnection@59cd28a9 [delegate=amqp://root@192.168.205.188:5672/, localPort= 15920]
+2020-09-0118:08:12.916[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-09-0118:08:12.959[restartedMain]INFO o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-0118:08:13.488[restartedMain]INFO com.ldh.product.ProductApplication-No active profile set, falling back to default profiles: default
+2020-09-0118:08:14.164[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-0118:08:14.244[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 72ms. Found 2 JPA repository interfaces.
+2020-09-0118:08:14.580[restartedMain]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=bfa5c369-8abb-3daa-bac7-f8bf5fff01f3
+2020-09-0118:08:14.591[restartedMain]INFO o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor-No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-09-0118:08:14.596[restartedMain]INFO o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor-No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-09-0118:08:14.601[restartedMain]INFO o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor-No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-09-0118:08:14.704[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0118:08:14.707[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0118:08:14.725[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0118:08:14.730[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0118:08:14.737[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0118:08:14.741[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0118:08:15.266[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2020-09-0118:08:15.276[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-0118:08:15.276[restartedMain]INFO org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-09-0118:08:15.277[restartedMain]INFO org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-0118:08:15.425[restartedMain]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-09-0118:08:15.426[restartedMain]INFO o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1920 ms
+2020-09-0118:08:15.628[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-0118:08:15.689[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskScheduler-Initializing ExecutorService 'taskScheduler'
+2020-09-0118:08:15.696[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-09-0118:08:15.820[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-09-0118:08:15.870[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-0118:08:15.911[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-0118:08:16.037[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-0118:08:16.157[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-09-0118:08:16.276[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-09-0118:08:16.276[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-0118:08:16.280[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-09-0118:08:16.280[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-0118:08:16.351[restartedMain]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-0118:08:17.060[restartedMain]INFO o.s.b.d.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2020-09-0118:08:17.096[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-0118:08:17.103[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-0118:08:17.332[restartedMain]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-0118:08:17.410[restartedMain]INFO o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar-Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-09-0118:08:17.761[restartedMain]INFO o.s.integration.monitor.IntegrationMBeanExporter-Registering MessageChannel nullChannel
+2020-09-0118:08:17.793[restartedMain]INFO o.s.integration.monitor.IntegrationMBeanExporter-Registering MessageChannel errorChannel
+2020-09-0118:08:17.888[restartedMain]INFO o.s.integration.monitor.IntegrationMBeanExporter-Registering MessageHandler errorLogger
+2020-09-0118:08:17.921[restartedMain]INFO o.s.integration.endpoint.EventDrivenConsumer-Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-09-0118:08:17.922[restartedMain]INFO o.s.integration.channel.PublishSubscribeChannel-Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-09-0118:08:17.922[restartedMain]INFO o.s.integration.endpoint.EventDrivenConsumer-started bean '_org.springframework.integration.errorLogger'
+2020-09-0118:08:17.930[restartedMain]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-09-0118:08:17.956[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-09-0118:08:18.018[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-09-0118:08:18.019[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-09-0118:08:18.115[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-09-0118:08:18.115[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-09-0118:08:18.263[restartedMain]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:08:18.309[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-09-0118:08:18.310[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-09-0118:08:18.310[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-09-0118:08:18.310[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-09-0118:08:18.310[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-09-0118:08:18.310[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-09-0118:08:18.310[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-09-0118:08:18.454[restartedMain]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-09-0118:08:18.457[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-09-0118:08:18.458[restartedMain]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-0118:08:18.462[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598954898461 with initial instances count: 1
+2020-09-0118:08:18.464[restartedMain]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application PRODUCT with eureka with status UP
+2020-09-0118:08:18.465[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598954898465, current=UP, previous=STARTING]
+2020-09-0118:08:18.467[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081: registering service...
+2020-09-0118:08:18.470[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+2020-09-0118:08:18.505[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-0118:08:18.506[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081 - registration status: 204
+2020-09-0118:08:18.507[restartedMain]INFO o.s.c.n.e.s.EurekaAutoServiceRegistration-Updating port to 8081
+2020-09-0118:08:18.591[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-09-0118:08:18.868[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-09-0118:08:18.878[restartedMain]INFO com.ldh.product.ProductApplication-Started ProductApplication in 6.416 seconds (JVM running for 7.588)
+2020-09-0118:10:29.776[http-nio-8081-exec-1]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-0118:10:29.776[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2020-09-0118:10:29.782[http-nio-8081-exec-1]INFO org.springframework.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2020-09-0118:13:18.313[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:18:18.316[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:23:18.318[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:28:18.320[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:33:18.322[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:38:18.325[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:43:18.327[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:48:18.327[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:53:18.328[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0118:58:18.329[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:03:18.331[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:08:18.334[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:13:18.337[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:18:18.338[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:25:49.707[background-preinit]INFO org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.1.5.Final
+2020-09-0119:25:49.735[restartedMain]INFO o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-0119:25:50.832[restartedMain]INFO com.ldh.product.ProductApplication-No active profile set, falling back to default profiles: default
+2020-09-0119:25:52.075[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-0119:25:52.267[restartedMain]INFO o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 157ms. Found 2 JPA repository interfaces.
+2020-09-0119:25:52.855[restartedMain]INFO o.springframework.cloud.context.scope.GenericScope-BeanFactory id=bfa5c369-8abb-3daa-bac7-f8bf5fff01f3
+2020-09-0119:25:52.870[restartedMain]INFO o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor-No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-09-0119:25:52.877[restartedMain]INFO o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor-No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-09-0119:25:52.885[restartedMain]INFO o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor-No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-09-0119:25:53.064[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0119:25:53.067[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0119:25:53.100[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0119:25:53.103[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0119:25:53.120[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0119:25:53.129[restartedMain]INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-0119:25:53.805[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2020-09-0119:25:53.815[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-0119:25:53.816[restartedMain]INFO org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-09-0119:25:53.816[restartedMain]INFO org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-0119:25:54.018[restartedMain]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-09-0119:25:54.018[restartedMain]INFO o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 3164 ms
+2020-09-0119:25:54.191[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-0119:25:54.255[restartedMain]INFO o.s.scheduling.concurrent.ThreadPoolTaskScheduler-Initializing ExecutorService 'taskScheduler'
+2020-09-0119:25:54.266[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2020-09-0119:25:54.382[restartedMain]INFO com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2020-09-0119:25:54.423[task-1]INFO org.hibernate.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-0119:25:54.467[task-1]INFO org.hibernate.Version-HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-0119:25:54.627[task-1]INFO org.hibernate.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-0119:25:54.781[task-1]INFO org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-09-0119:25:55.009[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-09-0119:25:55.009[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-0119:25:55.014[restartedMain]WARN com.netflix.config.sources.URLConfigurationSource-No URLs will be polled as dynamic configuration sources.
+2020-09-0119:25:55.014[restartedMain]INFO com.netflix.config.sources.URLConfigurationSource-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-0119:25:55.092[restartedMain]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-0119:25:55.701[task-1]INFO o.h.e.t.jta.platform.internal.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-0119:25:55.710[task-1]INFO o.s.orm.jpa.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-0119:25:55.834[restartedMain]INFO o.s.b.d.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2020-09-0119:25:56.309[restartedMain]WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger-You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-0119:25:56.404[restartedMain]INFO o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar-Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-09-0119:25:56.811[restartedMain]INFO o.s.integration.monitor.IntegrationMBeanExporter-Registering MessageChannel errorChannel
+2020-09-0119:25:56.977[restartedMain]INFO o.s.integration.monitor.IntegrationMBeanExporter-Registering MessageChannel nullChannel
+2020-09-0119:25:57.003[restartedMain]INFO o.s.integration.monitor.IntegrationMBeanExporter-Registering MessageHandler errorLogger
+2020-09-0119:25:57.051[restartedMain]INFO o.s.integration.endpoint.EventDrivenConsumer-Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-09-0119:25:57.051[restartedMain]INFO o.s.integration.channel.PublishSubscribeChannel-Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-09-0119:25:57.051[restartedMain]INFO o.s.integration.endpoint.EventDrivenConsumer-started bean '_org.springframework.integration.errorLogger'
+2020-09-0119:25:57.064[restartedMain]INFO o.s.cloud.netflix.eureka.InstanceInfoFactory-Setting initial instance status as: STARTING
+2020-09-0119:25:57.103[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Initializing Eureka in region us-east-1
+2020-09-0119:25:57.174[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON encoding codec LegacyJacksonJson
+2020-09-0119:25:57.174[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using JSON decoding codec LegacyJacksonJson
+2020-09-0119:25:57.279[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML encoding codec XStreamXml
+2020-09-0119:25:57.279[restartedMain]INFO c.n.discovery.provider.DiscoveryJerseyProvider-Using XML decoding codec XStreamXml
+2020-09-0119:25:57.437[restartedMain]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: true
+2020-09-0119:25:57.483[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-09-0119:25:57.584[restartedMain]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-09-0119:25:57.586[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Starting heartbeat executor: renew interval is: 30
+2020-09-0119:25:57.588[restartedMain]INFO com.netflix.discovery.InstanceInfoReplicator-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-0119:25:57.594[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Discovery Client initialized at timestamp 1598959557593 with initial instances count: 0
+2020-09-0119:25:57.596[restartedMain]INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry-Registering application PRODUCT with eureka with status UP
+2020-09-0119:25:57.597[restartedMain]INFO com.netflix.discovery.DiscoveryClient-Saw local status change event StatusChangeEvent [timestamp=1598959557597, current=UP, previous=STARTING]
+2020-09-0119:25:57.599[restartedMain]INFO org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+2020-09-0119:25:57.618[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081: registering service...
+2020-09-0119:25:57.636[restartedMain]INFO o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-0119:25:57.637[restartedMain]INFO o.s.c.n.e.s.EurekaAutoServiceRegistration-Updating port to 8081
+2020-09-0119:25:57.685[DiscoveryClient-InstanceInfoReplicator-0]INFO com.netflix.discovery.DiscoveryClient-DiscoveryClient_PRODUCT/DESKTOP-B4REUBC:product:8081 - registration status: 204
+2020-09-0119:25:57.729[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Triggering deferred initialization of Spring Data repositories…
+2020-09-0119:25:58.037[restartedMain]INFO o.s.d.r.c.DeferredRepositoryInitializationListener-Spring Data repositories initialized!
+2020-09-0119:25:58.048[restartedMain]INFO com.ldh.product.ProductApplication-Started ProductApplication in 9.206 seconds (JVM running for 11.727)
+2020-09-0119:26:27.588[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Disable delta property : false
+2020-09-0119:26:27.589[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Single vip registry refresh property : null
+2020-09-0119:26:27.589[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Force full registry fetch : false
+2020-09-0119:26:27.589[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Application is null : false
+2020-09-0119:26:27.589[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Registered Applications size is zero : true
+2020-09-0119:26:27.589[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Application version is -1: false
+2020-09-0119:26:27.589[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-Getting all instance registry info from the eureka server
+2020-09-0119:26:27.632[DiscoveryClient-CacheRefreshExecutor-0]INFO com.netflix.discovery.DiscoveryClient-The response status is 200
+2020-09-0119:26:43.739[http-nio-8081-exec-10]INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-0119:26:43.740[http-nio-8081-exec-10]INFO org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2020-09-0119:26:43.748[http-nio-8081-exec-10]INFO org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2020-09-0119:30:57.485[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:35:57.487[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:40:57.489[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
+2020-09-0119:45:57.491[AsyncResolver-bootstrap-executor-0]INFO c.n.d.shared.resolver.aws.ConfigClusterResolver-Resolving eureka endpoints via configuration
