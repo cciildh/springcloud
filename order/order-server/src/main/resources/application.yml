@@ -1,6 +1,17 @@
 server:
   port: 8082
 spring:
+  redis:
+    cluster:
+      nodes:
+        - 192.168.205.178:7001
+        - 192.168.205.178:7002
+        - 192.168.205.178:7003
+        - 192.168.205.178:7004
+        - 192.168.205.178:7005
+        - 192.168.205.178:7006
+      max-redirects: 3  #获取失败 最大重定向次数
+    timeout: 6000 # 连接超时时长（毫秒）
   cloud:
     stream:
       bindings:
@@ -30,4 +41,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-

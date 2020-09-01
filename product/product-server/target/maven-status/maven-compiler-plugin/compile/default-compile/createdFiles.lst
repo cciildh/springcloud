@@ -8,6 +8,7 @@ com\ldh\product\VO\ResultVO.class
 com\ldh\product\exception\GlobHandler.class
 com\ldh\product\controller\ServerController.class
 com\ldh\product\entity\ProductInfo.class
+com\ldh\product\controller\StreamController.class
 com\ldh\product\service\PorductInfoService.class
 com\ldh\product\enums\ProductStatusEnum.class
 com\ldh\product\VO\ProductInfoVO.class

@@ -7,6 +7,8 @@ import com.ldh.product.entity.ProductInfo;
 import com.ldh.product.enums.ProductStatusEnum;
 import com.ldh.product.repository.ProductInfoRepository;
 import com.ldh.product.service.PorductInfoService;
+import com.ldh.product.utlis.JsonUtils;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,6 +24,10 @@ public class PorductInfoServiceServiceimpl implements PorductInfoService {
     @Autowired
     private ProductInfoRepository productInfoRepository;
 
+    @Autowired
+    private AmqpTemplate amqpTemplate;
+
+
     @Override
     public List<ProductInfo> getUpAll() {
         return productInfoRepository.findByProductStatus(ProductStatusEnum.UP.getCode());
@@ -31,18 +37,38 @@ public class PorductInfoServiceServiceimpl implements PorductInfoService {
     @Override
     public List<ProductInfoOutput> findList(List<String> productIdList) {
         return productInfoRepository.findByProductIdIn(productIdList).stream()
-                .map(e->{
-                    ProductInfoOutput output=new ProductInfoOutput();
-                    BeanUtils.copyProperties(e,output);
+                .map(e -> {
+                    ProductInfoOutput output = new ProductInfoOutput();
+                    BeanUtils.copyProperties(e, output);
                     return output;
                 }).collect(Collectors.toList());
     }
 
 
     @Override
-    @Transactional
     public void decreaseStock(List<DecreaseStockInput> decreaseStockInputList) {
+        List<ProductInfo> productInfoList =decreaseStockProcess(decreaseStockInputList);
+        //list遍历原始写法
+//        List<ProductInfoOutput> productInfoOutputList =new ArrayList<>();
+//        for (ProductInfo info:productInfoList){
+//            ProductInfoOutput output = new ProductInfoOutput();
+//            BeanUtils.copyProperties(info,output);
+//            productInfoOutputList.add(output);
+//        }
+        List<ProductInfoOutput> outputList=productInfoList.stream().map(e->{
+            ProductInfoOutput output=new ProductInfoOutput();
+            BeanUtils.copyProperties(e,output);
+            return output;
+        }).collect(Collectors.toList());
+
+        //发送商品消息
+        amqpTemplate.convertAndSend("order","productinfokey", JsonUtils.objectToJson(outputList));
+    }
+
+    @Transactional
+    public List<ProductInfo>  decreaseStockProcess(List<DecreaseStockInput> decreaseStockInputList) {
         List<ProductInfo> productInfoList = new ArrayList<>();
+
         for (DecreaseStockInput decreaseStockInput : decreaseStockInputList) {
             Optional<ProductInfo> productInfoOptional = productInfoRepository.findById(decreaseStockInput.getProductId());
             if (!productInfoOptional.isPresent()) {
@@ -58,6 +84,9 @@ public class PorductInfoServiceServiceimpl implements PorductInfoService {
             productInfoRepository.save(productInfo);
             productInfoList.add(productInfo);
         }
+
+        return productInfoList;
+
 
     }
 }
